@@ -8,7 +8,7 @@ import org.kohsuke.stapler.DataBoundConstructor;
 
 public class MaterialBonitaThemeManagerFactory extends AbstractMaterialTheme {
 
-    public static final String MATERIAL_BONITA_CSS = "theme-bonita.css";
+    public static final String BONITA_JENKINS_THEME_CSS = "bonita-jenkins-theme.css";
     public static final String MATERIAL_BONITA_SYMBOL = "jenkins-bonita";
 
     @DataBoundConstructor
@@ -32,7 +32,7 @@ public class MaterialBonitaThemeManagerFactory extends AbstractMaterialTheme {
 
         @Override
         public String getThemeCssSuffix() {
-            return MATERIAL_BONITA_CSS;
+            return BONITA_JENKINS_THEME_CSS;
         }
 
         @Override
