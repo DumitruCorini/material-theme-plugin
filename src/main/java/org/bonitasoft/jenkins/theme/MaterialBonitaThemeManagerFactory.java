@@ -1,4 +1,4 @@
-package io.jenkins.plugins.materialtheme;
+package org.bonitasoft.jenkins.theme;
 
 import edu.umd.cs.findbugs.annotations.NonNull;
 import hudson.Extension;

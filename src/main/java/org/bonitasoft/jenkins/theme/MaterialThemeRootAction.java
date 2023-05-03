@@ -1,4 +1,4 @@
-package io.jenkins.plugins.materialtheme;
+package org.bonitasoft.jenkins.theme;
 
 import hudson.Extension;
 import hudson.Plugin;
@@ -10,7 +10,7 @@ import org.kohsuke.stapler.StaplerResponse;
 import javax.servlet.ServletException;
 import java.io.IOException;
 
-import static io.jenkins.plugins.materialtheme.MaterialBonitaThemeManagerFactory.BONITA_JENKINS_THEME_CSS;
+import static org.bonitasoft.jenkins.theme.MaterialBonitaThemeManagerFactory.BONITA_JENKINS_THEME_CSS;
 
 @Extension
 public class MaterialThemeRootAction implements UnprotectedRootAction {
