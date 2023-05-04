@@ -1,5 +1,3 @@
 <?jelly escape-by-default='true'?>
-<html data-theme="jenkins-bonita-login-page">
-    <j:jelly xmlns:j="jelly:core">
-    </j:jelly>
-</html>
+<j:jelly xmlns:j="jelly:core">
+</j:jelly>
