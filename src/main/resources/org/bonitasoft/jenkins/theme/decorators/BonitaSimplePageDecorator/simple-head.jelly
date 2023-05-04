@@ -1,5 +1,5 @@
 <?jelly escape-by-default='true'?>
-<html data-theme="jenkins-bonita-login-page">
+<html data-theme="jenkins-bonita">
     <j:jelly xmlns:j="jelly:core">
         <link rel="stylesheet" href="${resURL}/jsbundles/simple-page.css" type="text/css" />
         <link rel="stylesheet" href="${resURL}/theme-jenkins/bonita-jenkins-theme.css" type="text/css"/>
