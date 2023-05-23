@@ -45,6 +45,11 @@
       button[type=submit] {
         font-size: 18px;
 
+        &::before {
+          // It is a bad practice to use !important, but since the jenkins simple-page.css uses !important, we have no other choice
+          background-color: var(--material-secondary) !important;
+        }
+
         &:hover, &:focus, &:active {
           &::before {
             // It is a bad practice to use !important, but since the jenkins simple-page.css uses !important, we have no other choice
